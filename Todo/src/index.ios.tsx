@@ -29,7 +29,6 @@ const styles = StyleSheet.create({
   },
 });
 
-
 export default class Todo extends Component<IProps, IState> {
   public render() {
     return (
