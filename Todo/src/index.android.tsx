@@ -40,7 +40,7 @@ export default class Todo extends Component<IProps, IState> {
           To get started, edit index.android.tsx
         </Text>
         <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
+          Press R twice to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
       </View>

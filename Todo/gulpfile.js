@@ -28,6 +28,6 @@ gulp.task('ts:build', ['clean'], () => {
         .on('error', function() {});
 });
 
-gulp.task('watch', function() {
-    gulp.watch(tsSrc, ['ts:build']);
+gulp.task('watch', ['ts:build'], () => {
+    gulp.watch('src/**/*', ['ts:build']);
 })
